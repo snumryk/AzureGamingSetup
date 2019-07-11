@@ -179,7 +179,7 @@
                     }
                 },
                 "hardwareProfile": {
-                    "vmSize": "Standard_NV6"
+                    "vmSize": "Standard_DS3_v2"
                 },
                 "storageProfile": {
                     "imageReference": {

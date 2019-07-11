@@ -136,7 +136,7 @@
                 "[variables('virtualNetworkName')]"
             ],
             "sku": {
-                "name": "NV6_Promo",
+                "name": "Standard_DS3_v2",
                 "capacity": "1"
             },
             "properties": {
