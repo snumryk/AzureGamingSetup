@@ -1,7 +1,7 @@
 param (
-    [string]$network = "",
-    [string]$admin_username = "",
-    [string]$admin_password = "",
+    [string]$network = "8286ac0e473b2404",
+    [string]$admin_username = "Snumryk",
+    [string]$admin_password = "Snumryk25!!!!!",
     [switch]$windows_update = $false,
     [switch]$manual_install = $false
 )
@@ -37,6 +37,5 @@ Install-VPN
 Join-Network $network
 Install-NSSM
 
-Install-NvidiaDriver $manual_install
-Set-ScheduleWorkflow $admin_username $admin_password $manual_install
+
 Restart-Computer
